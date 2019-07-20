@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * Copyright (c) 2019 MediaTek Inc.
+ */
 /* crc32.h -- tables for rapid CRC calculation
  * Generated automatically by crc32.c
  */
