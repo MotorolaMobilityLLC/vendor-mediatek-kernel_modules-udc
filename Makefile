@@ -17,10 +17,9 @@ udc_lib-y += \
     adler32.o \
     crc32.o \
     zutil.o \
+    deflate.o \
+    trees.o \
     udc_lib_main.o
-
-udc_lib-$(CONFIG_ARM64) += udc_core_0.obj udc_core_1.obj
-udc_lib-$(CONFIG_ARM) += udc_core_0-32.obj udc_core_1-32.obj
 
 ccflags-y += \
     -DZ_SOLO
